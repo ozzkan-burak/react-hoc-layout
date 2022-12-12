@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import WithLayout from './hoc/withLayout';
 
 const Hi = () => {
   return (
@@ -8,4 +9,4 @@ const Hi = () => {
   )
 }
 
-export default Hi
+export default WithLayout(Hi)

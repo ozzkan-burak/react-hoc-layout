@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import WithLayout from './hoc/withLayout';
 
-const Hello = () => {
+const Hello = (props) => {
+  const {sayHello} = props
   return (
-    <div>
+    <div onClick={()=> sayHello()}>
       Hello
     </div>
   )
 }
 
-export default Hello
+export default WithLayout(Hello)
