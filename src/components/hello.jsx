@@ -4,7 +4,7 @@ import WithLayout from './hoc/withLayout';
 const Hello = (props) => {
   const {sayHello} = props
   return (
-    <div onClick={()=> sayHello()}>
+    <div className="bg-blue" onClick={()=> sayHello()}>
       Hello
     </div>
   )
