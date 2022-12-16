@@ -41,6 +41,10 @@
   background :red;
   display: flex;
 }
+
+.bg-blue {
+  background-color: aqua;
+}
 .left-side {
   width: 20%;
   background-color: antiquewhite;
